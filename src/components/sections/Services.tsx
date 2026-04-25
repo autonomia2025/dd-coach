@@ -58,7 +58,7 @@ const SERVICES = [
 
 export const Services = () => {
   return (
-    <section id="servicios" className="py-32 px-6 md:px-10 border-y border-border-strong overflow-hidden">
+    <section id="servicios" className="py-32 border-y border-border-strong overflow-hidden px-6 md:px-10">
       <div className="max-w-[1800px] mx-auto">
         
         {/* Header */}
@@ -66,7 +66,7 @@ export const Services = () => {
           <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase">
             SERVICIOS DD LAB / 003
           </span>
-          <h2 className="font-display text-[clamp(48px,7vw,120px)] leading-[0.9] uppercase mt-4 mb-4">
+          <h2 className="font-display text-[clamp(40px,7vw,120px)] leading-[0.9] uppercase mt-4 mb-4">
             Entrenamiento <br />
             <span className="text-white">de alto rendimiento</span>
           </h2>
@@ -87,7 +87,7 @@ export const Services = () => {
               className="group relative bg-bg-card p-12 min-h-[480px] overflow-hidden hover:bg-bg transition-colors duration-500"
             >
               {/* Giant Decorative Number */}
-              <div className="absolute top-5 right-8 font-display text-[220px] leading-none text-alert opacity-[0.08] group-hover:opacity-[0.15] transition-opacity duration-500 pointer-events-none select-none">
+              <div className="absolute top-5 right-8 font-display text-[120px] md:text-[180px] lg:text-[220px] leading-none text-alert opacity-[0.08] group-hover:opacity-[0.15] transition-opacity duration-500 pointer-events-none select-none">
                 {service.id}
               </div>
 

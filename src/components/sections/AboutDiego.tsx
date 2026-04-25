@@ -6,8 +6,8 @@ import { cn } from "@/lib/cn";
 
 export const AboutDiego = () => {
   return (
-    <section className="py-32 px-6 md:px-10 border-t border-border-strong overflow-hidden bg-bg">
-      <div className="max-w-[1800px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center">
+    <section className="py-32 border-t border-border-strong overflow-hidden bg-bg px-6 md:px-10">
+      <div className="max-w-[1800px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center px-6 md:px-10">
         
         {/* Left: Image Placeholder */}
         <div className="lg:col-span-5 relative">
@@ -30,7 +30,7 @@ export const AboutDiego = () => {
           <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase mb-6 block">
             EL COACH / 006
           </span>
-          <h2 className="font-display text-[clamp(64px,9vw,140px)] leading-[0.82] uppercase mb-12">
+          <h2 className="font-display text-[clamp(48px,9vw,140px)] leading-[0.82] uppercase mb-12">
             Diego <br />
             <span className="text-white">Droguett</span>
           </h2>

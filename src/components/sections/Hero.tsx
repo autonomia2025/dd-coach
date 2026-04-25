@@ -6,7 +6,7 @@ import { cn } from "@/lib/cn";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen pt-[140px] border-b border-border-strong overflow-hidden">
+    <section className="relative min-h-screen pt-[140px] border-b border-border-strong overflow-hidden px-6 md:px-10">
       {/* Background Layers */}
       <div className="absolute inset-0 z-0">
         {/* Radial Glow */}
@@ -26,19 +26,19 @@ export const Hero = () => {
         />
 
         {/* Video Placeholder */}
-        <div className="absolute right-0 bottom-20 w-1/2 h-[60%] bg-bg-card border-l border-t border-border-strong flex items-center justify-center opacity-40 grayscale">
+        <div className="absolute right-0 bottom-20 w-1/2 h-[60%] bg-bg-card border-l border-t border-border-strong hidden md:flex items-center justify-center opacity-40 grayscale">
           <span className="font-mono text-xs tracking-widest text-text-muted rotate-90">
             VIDEO HERO PLACEHOLDER
           </span>
         </div>
       </div>
 
-      <div className="max-w-[1800px] mx-auto px-6 md:px-10 relative z-10">
+      <div className="max-w-[1800px] mx-auto relative z-10">
         {/* Meta Bar */}
         <motion.div 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className="flex justify-between items-center mb-16"
+          className="flex flex-wrap justify-between items-center gap-2 mb-16"
         >
           <div className="flex items-center gap-3">
             <div className="w-2 h-2 rounded-full bg-alert animate-pulse-red" />
@@ -66,7 +66,7 @@ export const Hero = () => {
 
         {/* Main Title */}
         <div className="relative mb-20">
-          <h1 className="font-display text-[clamp(64px,13vw,220px)] leading-[0.82] tracking-[-0.02em] uppercase flex flex-col">
+          <h1 className="font-display text-[clamp(48px,12vw,220px)] leading-[0.82] tracking-[-0.02em] uppercase flex flex-col">
             <motion.span
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
@@ -113,7 +113,7 @@ export const Hero = () => {
           <div className="md:col-span-3 flex flex-col gap-4">
             <a 
               href="#contacto"
-              className="bg-accent text-bg px-8 py-5 font-bold uppercase tracking-wider hover:bg-white transition-all duration-500 flex items-center justify-between group"
+              className="bg-accent text-bg px-8 py-5 font-bold uppercase tracking-wider hover:bg-white transition-all duration-500 flex items-center justify-between group text-center"
             >
               RESERVA TU SESIÓN
               <span className="group-hover:translate-x-2 transition-transform">→</span>
@@ -146,7 +146,7 @@ export const Hero = () => {
 
         {/* Giant Number Decoration */}
         <div className="absolute right-0 bottom-[-40px] pointer-events-none select-none overflow-hidden">
-           <span className="font-display text-[320px] leading-none text-border-strong opacity-50 block translate-y-1/4">
+           <span className="font-display text-[160px] md:text-[240px] lg:text-[320px] leading-none text-border-strong opacity-50 block translate-y-1/4">
              01
            </span>
         </div>

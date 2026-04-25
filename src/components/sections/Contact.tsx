@@ -31,21 +31,21 @@ const CONTACT_METHODS = [
 
 export const Contact = () => {
   return (
-    <section id="contacto" className="relative py-32 px-6 md:px-10 overflow-hidden bg-bg">
+    <section id="contacto" className="relative py-32 overflow-hidden bg-bg px-6 md:px-10">
       {/* Background Decoration */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none opacity-[0.03] z-0">
-        <span className="font-display text-[400px] leading-none text-white">
+        <span className="font-display text-[180px] md:text-[280px] lg:text-[400px] leading-none text-white">
           08
         </span>
       </div>
 
-      <div className="max-w-[1800px] mx-auto relative z-10">
+      <div className="max-w-[1800px] mx-auto relative z-10 px-6 md:px-10">
         {/* Header */}
         <div className="text-center mb-24">
           <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase">
             CONTACTO / 008
           </span>
-          <h2 className="font-display text-[clamp(80px,14vw,240px)] leading-[0.8] uppercase mt-8">
+          <h2 className="font-display text-[clamp(56px,13vw,240px)] leading-[0.8] uppercase mt-8">
             Empezamos <br />
             <span className="text-accent">Hoy.</span>
           </h2>

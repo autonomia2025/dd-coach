@@ -14,18 +14,18 @@ const STEPS = [
 
 export const Methodology = () => {
   return (
-    <section id="metodologia" className="py-32 px-6 md:px-10 relative overflow-hidden">
+    <section id="metodologia" className="py-32 relative overflow-hidden px-6 md:px-10">
       {/* Background radial glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_rgba(31,168,224,0.05)_0%,_transparent_70%)] pointer-events-none" />
 
-      <div className="max-w-[1800px] mx-auto relative z-10">
+      <div className="max-w-[1800px] mx-auto relative z-10 px-6 md:px-10">
         
         {/* Header */}
         <div className="mb-24 text-center md:text-left">
           <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase">
             METODOLOGÍA / 004
           </span>
-          <h2 className="font-display text-[clamp(48px,7vw,100px)] leading-[0.9] uppercase mt-4 mb-4">
+          <h2 className="font-display text-[clamp(40px,7vw,100px)] leading-[0.9] uppercase mt-4 mb-4">
             El Loop <span className="text-white">DD Lab</span>
           </h2>
           <p className="font-sans text-text-dim text-lg">

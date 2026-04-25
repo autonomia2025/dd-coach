@@ -7,13 +7,13 @@ export const Footer = () => {
     <>
       {/* Giant Marquee Banner */}
       <div className="border-t border-border-strong overflow-hidden bg-bg whitespace-nowrap py-10 opacity-50">
-        <div className="animate-marquee inline-block font-display text-[180px] leading-none text-border-strong uppercase">
+        <div className="animate-marquee inline-block font-display text-[100px] md:text-[140px] lg:text-[180px] leading-none text-border-strong uppercase">
           DD · PERFORMANCE · KAIZEN · DD · PERFORMANCE · KAIZEN · DD · PERFORMANCE · KAIZEN · 
         </div>
       </div>
 
-      <footer className="bg-bg-elevated pt-24 pb-12 px-6 md:px-10 border-t border-border-strong">
-        <div className="max-w-[1800px] mx-auto grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-8 mb-24">
+      <footer className="bg-bg-elevated pt-24 pb-12 border-t border-border-strong px-6 md:px-10">
+        <div className="max-w-[1800px] mx-auto grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-8 mb-24 px-6 md:px-10">
           
           {/* Brand */}
           <div className="md:col-span-4">
@@ -76,8 +76,8 @@ export const Footer = () => {
         </div>
 
         {/* Bottom Row */}
-        <div className="max-w-[1800px] mx-auto pt-12 border-t border-border/10 flex flex-col md:row items-center justify-between gap-8 md:flex-row">
-          <span className="font-mono text-[10px] text-text-muted tracking-widest uppercase">
+        <div className="max-w-[1800px] mx-auto pt-12 border-t border-border/10 flex flex-col md:flex-row items-center justify-between gap-8 px-6 md:px-10">
+          <span className="font-mono text-[10px] text-text-muted tracking-widest uppercase text-center md:text-left">
             © 2026 DD PERFORMANCE · TODOS LOS DERECHOS RESERVADOS
           </span>
           <span className="font-mono text-[10px] text-text-muted tracking-widest uppercase hidden lg:block">

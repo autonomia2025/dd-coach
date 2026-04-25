@@ -15,7 +15,7 @@ export const LeadMagnet = () => {
   };
 
   return (
-    <section className="relative py-32 px-6 md:px-10 overflow-hidden border-y-[4px] border-accent">
+    <section className="relative py-32 overflow-hidden border-y-[4px] border-accent px-6 md:px-10">
       {/* Background Layer */}
       <div className="absolute inset-0 bg-bg-elevated z-0">
         <div 
@@ -31,14 +31,14 @@ export const LeadMagnet = () => {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-accent/25 blur-[160px] rounded-full pointer-events-none" />
       </div>
 
-      <div className="max-w-[1800px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center relative z-10">
+      <div className="max-w-[1800px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center relative z-10 px-6 md:px-10">
         
         {/* Left: Info */}
         <div className="lg:col-span-7">
           <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase mb-6 block">
             RECURSO GRATUITO / 007
           </span>
-          <h2 className="font-display text-[clamp(56px,9vw,140px)] leading-[0.85] uppercase mb-8">
+          <h2 className="font-display text-[clamp(44px,9vw,140px)] leading-[0.85] uppercase mb-8">
             Descarga <br />
             3 Drills <br />
             de <span className="text-accent">Footwork</span>

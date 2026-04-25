@@ -30,11 +30,11 @@ export const Philosophy = () => {
     <section 
       id="sobre"
       ref={containerRef}
-      className="min-h-screen py-32 px-6 md:px-10 relative overflow-hidden"
+      className="min-h-screen py-32 relative overflow-hidden px-6 md:px-10"
     >
       {/* Background Decoration */}
       <div className="absolute left-10 top-40 pointer-events-none select-none z-0">
-        <span className="font-display text-[240px] leading-none text-border-strong opacity-[0.15] block">
+        <span className="font-display text-[120px] md:text-[180px] lg:text-[240px] leading-none text-border-strong opacity-[0.15] block">
           改善
         </span>
       </div>
@@ -58,7 +58,7 @@ export const Philosophy = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="font-display text-[clamp(48px,7vw,120px)] leading-[0.9] uppercase mb-12"
+            className="font-display text-[clamp(40px,7vw,120px)] leading-[0.9] uppercase mb-12"
           >
             Somos lo que <br />
             <span className="text-white">Entrenamos.</span>
