@@ -42,14 +42,14 @@ export const Philosophy = () => {
       <div className="max-w-[1800px] mx-auto grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-24 relative z-10">
         
         {/* Left Column */}
-        <div className="md:col-span-7 flex flex-col justify-center">
+        <div className="md:col-span-7 flex flex-col justify-center text-center md:text-left items-center md:items-start">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6 }}
             className="mb-6"
           >
-            <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase">
+            <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase text-center md:text-left break-words">
               FILOSOFÍA / 002
             </span>
           </motion.div>
@@ -58,7 +58,7 @@ export const Philosophy = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="font-display text-[clamp(40px,7vw,120px)] leading-[0.9] uppercase mb-12"
+            className="font-display text-[clamp(40px,7vw,120px)] leading-[0.9] uppercase mb-12 text-center md:text-left break-words w-full"
           >
             Somos lo que <br />
             <span className="text-white">Entrenamos.</span>

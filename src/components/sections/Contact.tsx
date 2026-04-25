@@ -41,11 +41,11 @@ export const Contact = () => {
 
       <div className="max-w-[1800px] mx-auto relative z-10 px-6 md:px-10">
         {/* Header */}
-        <div className="text-center mb-24">
-          <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase">
+        <div className="text-center mb-24 flex flex-col items-center">
+          <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase text-center break-words">
             CONTACTO / 008
           </span>
-          <h2 className="font-display text-[clamp(56px,13vw,240px)] leading-[0.8] uppercase mt-8">
+          <h2 className="font-display text-[clamp(56px,13vw,240px)] leading-[0.8] uppercase mt-8 text-center break-words w-full">
             Empezamos <br />
             <span className="text-accent">Hoy.</span>
           </h2>

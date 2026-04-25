@@ -42,11 +42,11 @@ export const Testimonials = () => {
       <div className="max-w-[1800px] mx-auto px-6 md:px-10">
         
         {/* Header */}
-        <div className="mb-20">
-          <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase">
+        <div className="mb-20 text-center md:text-left flex flex-col items-center md:items-start">
+          <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase text-center md:text-left break-words">
             TESTIMONIOS / 005
           </span>
-          <h2 className="font-display text-[clamp(40px,7vw,120px)] leading-[0.9] uppercase mt-4">
+          <h2 className="font-display text-[clamp(40px,7vw,120px)] leading-[0.9] uppercase mt-4 text-center md:text-left break-words w-full">
             Lo que dicen <br />
             <span className="text-white">los que entrenan</span>
           </h2>

@@ -21,15 +21,15 @@ export const Methodology = () => {
       <div className="max-w-[1800px] mx-auto relative z-10 px-6 md:px-10">
         
         {/* Header */}
-        <div className="mb-24 text-center md:text-left">
-          <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase">
+        <div className="mb-24 text-center md:text-left flex flex-col items-center md:items-start">
+          <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase text-center md:text-left break-words">
             METODOLOGÍA / 004
           </span>
-          <h2 className="font-display text-[clamp(40px,7vw,100px)] leading-[0.9] uppercase mt-4 mb-4">
+          <h2 className="font-display text-[clamp(40px,7vw,100px)] leading-[0.9] uppercase mt-4 mb-4 text-center md:text-left break-words w-full">
             El Loop <span className="text-white">DD Lab</span>
           </h2>
-          <p className="font-sans text-text-dim text-lg">
-            Un ciclo de 5 fases que no termina nunca.
+          <p className="font-sans text-text-dim text-lg text-center md:text-left break-words max-w-xl">
+            Un ciclo continuo de mejora. Basado en datos, ejecutado en cancha.
           </p>
         </div>
 

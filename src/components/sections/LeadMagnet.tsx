@@ -34,11 +34,11 @@ export const LeadMagnet = () => {
       <div className="max-w-[1800px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center relative z-10 px-6 md:px-10">
         
         {/* Left: Info */}
-        <div className="lg:col-span-7">
-          <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase mb-6 block">
+        <div className="lg:col-span-7 text-center lg:text-left flex flex-col items-center lg:items-start">
+          <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase mb-6 block text-center lg:text-left break-words">
             RECURSO GRATUITO / 007
           </span>
-          <h2 className="font-display text-[clamp(44px,9vw,140px)] leading-[0.85] uppercase mb-8">
+          <h2 className="font-display text-[clamp(44px,9vw,140px)] leading-[0.85] uppercase mb-8 text-center lg:text-left break-words w-full">
             Descarga <br />
             3 Drills <br />
             de <span className="text-accent">Footwork</span>

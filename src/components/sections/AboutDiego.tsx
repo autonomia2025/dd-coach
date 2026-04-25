@@ -26,16 +26,16 @@ export const AboutDiego = () => {
         </div>
 
         {/* Right: Content */}
-        <div className="lg:col-span-7">
-          <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase mb-6 block">
+        <div className="lg:col-span-7 text-center lg:text-left flex flex-col items-center lg:items-start">
+          <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase mb-6 block text-center lg:text-left break-words">
             EL COACH / 006
           </span>
-          <h2 className="font-display text-[clamp(48px,9vw,140px)] leading-[0.82] uppercase mb-12">
+          <h2 className="font-display text-[clamp(48px,9vw,140px)] leading-[0.82] uppercase mb-12 text-center lg:text-left break-words w-full">
             Diego <br />
             <span className="text-white">Droguett</span>
           </h2>
 
-          <div className="space-y-6 mb-16 max-w-[540px]">
+          <div className="space-y-6 mb-16 max-w-[540px] text-center lg:text-left break-words">
             <p className="font-sans text-lg text-text-dim leading-relaxed">
               Coach de basketball especializado en desarrollo individual y formación de entrenadores. Más de 8 años trabajando con jugadores profesionales y formativos en clubes de Chile y Latinoamérica.
             </p>

@@ -62,15 +62,15 @@ export const Services = () => {
       <div className="max-w-[1800px] mx-auto">
         
         {/* Header */}
-        <div className="mb-20">
-          <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase">
+        <div className="mb-20 text-center md:text-left flex flex-col items-center md:items-start">
+          <span className="font-mono text-[10px] tracking-widest text-text-dim uppercase text-center md:text-left break-words">
             SERVICIOS DD LAB / 003
           </span>
-          <h2 className="font-display text-[clamp(40px,7vw,120px)] leading-[0.9] uppercase mt-4 mb-4">
+          <h2 className="font-display text-[clamp(40px,7vw,120px)] leading-[0.9] uppercase mt-4 mb-4 text-center md:text-left break-words w-full">
             Entrenamiento <br />
             <span className="text-white">de alto rendimiento</span>
           </h2>
-          <p className="font-sans text-text-dim text-lg">
+          <p className="font-sans text-text-dim text-lg text-center md:text-left break-words">
             Cuatro líneas de trabajo. Una sola metodología.
           </p>
         </div>

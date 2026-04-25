@@ -56,17 +56,17 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="inline-flex items-center gap-3 border border-border-strong px-4 py-2 mb-8"
+          className="inline-flex items-center gap-3 border border-border-strong px-4 py-2 mb-8 mx-auto md:mx-0"
         >
           <div className="w-1.5 h-1.5 bg-accent rotate-45" />
-          <span className="font-mono text-[11px] tracking-[0.2em] uppercase text-white">
+          <span className="font-mono text-[11px] tracking-[0.2em] uppercase text-white text-center">
             BASKETBALL PERFORMANCE COACHING
           </span>
         </motion.div>
 
         {/* Main Title */}
-        <div className="relative mb-20">
-          <h1 className="font-display text-[clamp(48px,12vw,220px)] leading-[0.82] tracking-[-0.02em] uppercase flex flex-col">
+        <div className="relative mb-20 text-center md:text-left flex flex-col items-center md:items-start">
+          <h1 className="font-display text-[clamp(44px,12vw,220px)] leading-[0.82] tracking-[-0.02em] uppercase flex flex-col items-center md:items-start break-words w-full">
             <motion.span
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
@@ -102,8 +102,8 @@ export const Hero = () => {
           className="grid grid-cols-1 md:grid-cols-12 gap-12 items-end border-t border-border/20 pt-12"
         >
           {/* Subtitle */}
-          <div className="md:col-span-5">
-            <p className="text-text-dim text-lg md:text-xl leading-relaxed max-w-[480px] font-sans">
+          <div className="md:col-span-5 text-center md:text-left flex justify-center md:justify-start">
+            <p className="text-text-dim text-lg md:text-xl leading-relaxed max-w-[480px] font-sans break-words">
               Desarrollo de jugadores profesionales y formativos bajo la metodología <span className="text-white">DD LAB</span>. 
               Filosofía Kaizen aplicada cada día, en cada detalle.
             </p>
