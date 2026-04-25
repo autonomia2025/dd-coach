@@ -63,7 +63,7 @@ export const Footer = () => {
                 <Camera size={20} className="group-hover:text-accent" />
                 <span className="font-sans text-sm">Instagram</span>
               </a>
-              <a href="#" className="flex items-center gap-3 text-text-dim hover:text-white transition-all group">
+              <a href="https://wa.me/56940288218" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-text-dim hover:text-white transition-all group">
                 <MessageCircle size={20} className="group-hover:text-[#25D366]" />
                 <span className="font-sans text-sm">WhatsApp</span>
               </a>

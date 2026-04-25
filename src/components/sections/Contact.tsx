@@ -10,8 +10,8 @@ const CONTACT_METHODS = [
     icon: MessageCircle,
     label: "RESPUESTA EN < 2 HORAS",
     title: "ESCRIBIR POR WHATSAPP",
-    value: "+56 9 XXXX XXXX",
-    link: "#",
+    value: "+56 9 4028 8218",
+    link: "https://wa.me/56940288218",
   },
   {
     icon: Calendar,
