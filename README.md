@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DD Performance Landing Page
 
-## Getting Started
+Proyecto de landing page profesional para la marca de basketball coaching de Diego Droguett en Chile. Construido con una estética editorial brutalista, masiva y técnica.
 
-First, run the development server:
+## 🚀 Tecnologías
+- **Core**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS v4 (Configuración basada en CSS variables)
+- **Animaciones**: Framer Motion
+- **Iconografía**: Lucide React
+- **Tipografía**: Google Fonts (Bebas Neue, Archivo, JetBrains Mono)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📁 Estructura del Proyecto
+- `src/app`: Rutas y configuración global (Metadata, SEO, Globals CSS).
+- `src/components/sections`: Secciones modulares de la landing page (Hero, Services, Methodology, etc).
+- `src/components/ui`: Componentes de interfaz reutilizables (Logo, WhatsAppFloat).
+- `src/lib`: Utilidades (clase `cn` para Tailwind).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Instalación y Uso
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clonar el repositorio
+2. Instalar dependencias:
+   ```bash
+   npm install
+   ```
+3. Correr en desarrollo:
+   ```bash
+   npm run dev
+   ```
+4. Generar build de producción:
+   ```bash
+   npm run build
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📝 Assets Pendientes de Reemplazo
+Para llevar este proyecto a producción real, se deben reemplazar los siguientes placeholders:
+- **Imágenes**: Reemplazar los divs de placeholder en `Hero`, `AboutDiego` y `AuthorityBar` con fotos reales en blanco y negro (B/N).
+- **Logos**: Cargar los logos reales de los clubes en `AuthorityBar`.
+- **Links**: 
+  - Actualizar número de WhatsApp en `WhatsAppFloat.tsx` y `Contact.tsx`.
+  - Actualizar link de Calendly en `Contact.tsx`.
+- **Video**: El video hero placeholder debe ser reemplazado por un archivo `.mp4` optimizado.
+- **Testimonios**: Reemplazar el contenido de `Testimonials.tsx` con declaraciones reales de jugadores/entrenadores.
 
-## Learn More
+## 🔮 Próximos Pasos
+1. **Captura de Leads**: Conectar el formulario de `LeadMagnet` y `Contact` a una API como Brevo o Mailchimp.
+2. **Analítica**: Integrar Google Analytics 4 (GA4) y Meta Pixel.
+3. **CMS**: Integrar Sanity.io o Contentful para que el coach pueda actualizar sus servicios y blog sin tocar código.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Los detalles SON la diferencia.*
