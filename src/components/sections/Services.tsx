@@ -58,7 +58,7 @@ const SERVICES = [
 
 export const Services = () => {
   return (
-    <section className="py-32 px-6 md:px-10 border-y border-border-strong overflow-hidden">
+    <section id="servicios" className="py-32 px-6 md:px-10 border-y border-border-strong overflow-hidden">
       <div className="max-w-[1800px] mx-auto">
         
         {/* Header */}
@@ -117,10 +117,13 @@ export const Services = () => {
                   ))}
                 </ul>
 
-                <button className="mt-12 flex items-center gap-2 text-accent font-bold uppercase tracking-widest text-xs group/btn">
+                <a 
+                  href="#contacto"
+                  className="mt-12 flex items-center gap-2 text-accent font-bold uppercase tracking-widest text-xs group/btn"
+                >
                   EXPLORAR 
                   <span className="group-hover/btn:translate-x-2 transition-transform duration-300">→</span>
-                </button>
+                </a>
               </div>
 
               {/* Hover Border Accent */}

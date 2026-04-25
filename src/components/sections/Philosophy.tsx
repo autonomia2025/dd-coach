@@ -28,6 +28,7 @@ export const Philosophy = () => {
 
   return (
     <section 
+      id="sobre"
       ref={containerRef}
       className="min-h-screen py-32 px-6 md:px-10 relative overflow-hidden"
     >

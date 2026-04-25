@@ -32,7 +32,7 @@ export const Footer = () => {
             <ul className="space-y-4">
               {["Player Development", "Shooting Lab", "Team Consulting", "Coach Education"].map(link => (
                 <li key={link}>
-                  <a href="#" className="font-sans text-sm text-text-dim hover:text-white transition-colors">{link}</a>
+                  <a href="#servicios" className="font-sans text-sm text-text-dim hover:text-white transition-colors">{link}</a>
                 </li>
               ))}
             </ul>
@@ -42,9 +42,14 @@ export const Footer = () => {
           <div className="md:col-span-3">
             <h4 className="font-mono text-[10px] text-text-muted tracking-[0.2em] uppercase mb-8">Recursos</h4>
             <ul className="space-y-4">
-              {["Metodología", "Sobre Diego", "Cursos FEBA", "Blog (próximamente)"].map(link => (
-                <li key={link}>
-                  <a href="#" className="font-sans text-sm text-text-dim hover:text-white transition-colors">{link}</a>
+              {[
+                { name: "Metodología", href: "#metodologia" },
+                { name: "Sobre Diego", href: "#sobre" },
+                { name: "Cursos FEBA", href: "#servicios" },
+                { name: "Blog (próximamente)", href: "#" }
+              ].map(link => (
+                <li key={link.name}>
+                  <a href={link.href} className="font-sans text-sm text-text-dim hover:text-white transition-colors">{link.name}</a>
                 </li>
               ))}
             </ul>

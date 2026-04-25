@@ -14,7 +14,7 @@ const STEPS = [
 
 export const Methodology = () => {
   return (
-    <section className="py-32 px-6 md:px-10 relative overflow-hidden">
+    <section id="metodologia" className="py-32 px-6 md:px-10 relative overflow-hidden">
       {/* Background radial glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_rgba(31,168,224,0.05)_0%,_transparent_70%)] pointer-events-none" />
 

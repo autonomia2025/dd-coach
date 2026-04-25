@@ -49,11 +49,14 @@ export const Nav = () => {
                 </a>
               ))}
             </div>
-            <button className="bg-accent text-bg px-6 py-2.5 font-bold uppercase text-sm hover:bg-white transition-all duration-300 skew-x-[-12deg] group">
+            <a 
+              href="#contacto"
+              className="bg-accent text-bg px-6 py-2.5 font-bold uppercase text-sm hover:bg-white transition-all duration-300 skew-x-[-12deg] group"
+            >
               <span className="skew-x-[12deg] block group-hover:scale-105 transition-transform">
                 Reserva ahora
               </span>
-            </button>
+            </a>
           </div>
 
           {/* Mobile Toggle */}
@@ -100,9 +103,13 @@ export const Nav = () => {
             </div>
 
             <div className="mt-auto">
-              <button className="w-full bg-accent text-bg py-5 font-bold uppercase text-xl">
+              <a 
+                href="#contacto"
+                onClick={() => setIsOpen(false)}
+                className="w-full bg-accent text-bg py-5 font-bold uppercase text-xl text-center block"
+              >
                 Reserva ahora
-              </button>
+              </a>
             </div>
           </motion.div>
         )}

@@ -111,13 +111,19 @@ export const Hero = () => {
 
           {/* CTAs */}
           <div className="md:col-span-3 flex flex-col gap-4">
-            <button className="bg-accent text-bg px-8 py-5 font-bold uppercase tracking-wider hover:bg-white transition-all duration-500 flex items-center justify-between group">
+            <a 
+              href="#contacto"
+              className="bg-accent text-bg px-8 py-5 font-bold uppercase tracking-wider hover:bg-white transition-all duration-500 flex items-center justify-between group"
+            >
               RESERVA TU SESIÓN
               <span className="group-hover:translate-x-2 transition-transform">→</span>
-            </button>
-            <button className="border border-border-strong text-white px-8 py-5 font-bold uppercase tracking-wider hover:bg-white hover:text-bg transition-all duration-500">
+            </a>
+            <a 
+              href="#metodologia"
+              className="border border-border-strong text-white px-8 py-5 font-bold uppercase tracking-wider hover:bg-white hover:text-bg transition-all duration-500 text-center"
+            >
               VER METODOLOGÍA
-            </button>
+            </a>
           </div>
 
           {/* Stats */}
