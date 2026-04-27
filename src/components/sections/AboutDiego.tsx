@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/cn";
 
@@ -10,11 +11,14 @@ export const AboutDiego = () => {
       <div className="max-w-[1800px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center px-6 md:px-10">
         
         {/* Left: Image Placeholder */}
-        <div className="lg:col-span-5 relative">
-          <div className="aspect-[4/5] bg-bg-card border border-border-strong flex items-center justify-center grayscale">
-            <span className="font-mono text-xs text-text-muted tracking-widest uppercase">
-              FOTO COACH B/N PLACEHOLDER
-            </span>
+        <div className="lg:col-span-5 relative group">
+          <div className="aspect-[4/5] relative bg-bg-card border border-border-strong flex items-center justify-center overflow-hidden">
+            <Image 
+              src="/coaching.jpg" 
+              alt="Coach Diego dando instrucciones" 
+              fill
+              className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+            />
           </div>
           
           {/* Badge */}
